@@ -17,6 +17,10 @@
 		1F9AFCE624F13CC9005A6F1F /* SwiftUIDay2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9AFCE524F13CC9005A6F1F /* SwiftUIDay2UITests.swift */; };
 		1F9AFCF424F1445C005A6F1F /* CW5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9AFCF324F1445C005A6F1F /* CW5.swift */; };
 		1F9AFCF624F144B9005A6F1F /* CW5Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9AFCF524F144B9005A6F1F /* CW5Modifiers.swift */; };
+		1F9AFCF824F15750005A6F1F /* MovieDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9AFCF724F15750005A6F1F /* MovieDetailsView.swift */; };
+		1F9AFCFA24F18419005A6F1F /* AthkarListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9AFCF924F18419005A6F1F /* AthkarListApp.swift */; };
+		1F9AFCFC24F18CB2005A6F1F /* AthkarDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9AFCFB24F18CB2005A6F1F /* AthkarDetailsView.swift */; };
+		1F9AFCFE24F18CE8005A6F1F /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9AFCFD24F18CE8005A6F1F /* Modifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		1F9AFCE724F13CC9005A6F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F9AFCF324F1445C005A6F1F /* CW5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CW5.swift; sourceTree = "<group>"; };
 		1F9AFCF524F144B9005A6F1F /* CW5Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CW5Modifiers.swift; sourceTree = "<group>"; };
+		1F9AFCF724F15750005A6F1F /* MovieDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsView.swift; sourceTree = "<group>"; };
+		1F9AFCF924F18419005A6F1F /* AthkarListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthkarListApp.swift; sourceTree = "<group>"; };
+		1F9AFCFB24F18CB2005A6F1F /* AthkarDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AthkarDetailsView.swift; sourceTree = "<group>"; };
+		1F9AFCFD24F18CE8005A6F1F /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +115,11 @@
 				1F9AFCC524F13CC6005A6F1F /* SceneDelegate.swift */,
 				1F9AFCC724F13CC6005A6F1F /* ContentView.swift */,
 				1F9AFCF324F1445C005A6F1F /* CW5.swift */,
+				1F9AFCF724F15750005A6F1F /* MovieDetailsView.swift */,
 				1F9AFCF524F144B9005A6F1F /* CW5Modifiers.swift */,
+				1F9AFCF924F18419005A6F1F /* AthkarListApp.swift */,
+				1F9AFCFB24F18CB2005A6F1F /* AthkarDetailsView.swift */,
+				1F9AFCFD24F18CE8005A6F1F /* Modifiers.swift */,
 				1F9AFCC924F13CC8005A6F1F /* Assets.xcassets */,
 				1F9AFCCE24F13CC8005A6F1F /* LaunchScreen.storyboard */,
 				1F9AFCD124F13CC8005A6F1F /* Info.plist */,
@@ -273,10 +285,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F9AFCF824F15750005A6F1F /* MovieDetailsView.swift in Sources */,
+				1F9AFCFA24F18419005A6F1F /* AthkarListApp.swift in Sources */,
 				1F9AFCC424F13CC6005A6F1F /* AppDelegate.swift in Sources */,
 				1F9AFCC624F13CC6005A6F1F /* SceneDelegate.swift in Sources */,
 				1F9AFCC824F13CC6005A6F1F /* ContentView.swift in Sources */,
 				1F9AFCF624F144B9005A6F1F /* CW5Modifiers.swift in Sources */,
+				1F9AFCFC24F18CB2005A6F1F /* AthkarDetailsView.swift in Sources */,
+				1F9AFCFE24F18CE8005A6F1F /* Modifiers.swift in Sources */,
 				1F9AFCF424F1445C005A6F1F /* CW5.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

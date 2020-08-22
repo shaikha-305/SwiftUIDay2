@@ -15,6 +15,8 @@
 		1F9AFCD024F13CC8005A6F1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9AFCCE24F13CC8005A6F1F /* LaunchScreen.storyboard */; };
 		1F9AFCDB24F13CC9005A6F1F /* SwiftUIDay2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9AFCDA24F13CC9005A6F1F /* SwiftUIDay2Tests.swift */; };
 		1F9AFCE624F13CC9005A6F1F /* SwiftUIDay2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9AFCE524F13CC9005A6F1F /* SwiftUIDay2UITests.swift */; };
+		1F9AFCF424F1445C005A6F1F /* CW5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9AFCF324F1445C005A6F1F /* CW5.swift */; };
+		1F9AFCF624F144B9005A6F1F /* CW5Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9AFCF524F144B9005A6F1F /* CW5Modifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		1F9AFCE124F13CC9005A6F1F /* SwiftUIDay2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIDay2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F9AFCE524F13CC9005A6F1F /* SwiftUIDay2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIDay2UITests.swift; sourceTree = "<group>"; };
 		1F9AFCE724F13CC9005A6F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F9AFCF324F1445C005A6F1F /* CW5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CW5.swift; sourceTree = "<group>"; };
+		1F9AFCF524F144B9005A6F1F /* CW5Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CW5Modifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				1F9AFCC324F13CC6005A6F1F /* AppDelegate.swift */,
 				1F9AFCC524F13CC6005A6F1F /* SceneDelegate.swift */,
 				1F9AFCC724F13CC6005A6F1F /* ContentView.swift */,
+				1F9AFCF324F1445C005A6F1F /* CW5.swift */,
+				1F9AFCF524F144B9005A6F1F /* CW5Modifiers.swift */,
 				1F9AFCC924F13CC8005A6F1F /* Assets.xcassets */,
 				1F9AFCCE24F13CC8005A6F1F /* LaunchScreen.storyboard */,
 				1F9AFCD124F13CC8005A6F1F /* Info.plist */,
@@ -270,6 +276,8 @@
 				1F9AFCC424F13CC6005A6F1F /* AppDelegate.swift in Sources */,
 				1F9AFCC624F13CC6005A6F1F /* SceneDelegate.swift in Sources */,
 				1F9AFCC824F13CC6005A6F1F /* ContentView.swift in Sources */,
+				1F9AFCF624F144B9005A6F1F /* CW5Modifiers.swift in Sources */,
+				1F9AFCF424F1445C005A6F1F /* CW5.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
